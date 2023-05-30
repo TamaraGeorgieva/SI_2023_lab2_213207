@@ -14,17 +14,18 @@ Control Flow Graph
 
 
 Тест случаи според критериумот Multiple Condition
-Multiple Condition критериумот за (user==null||user.getPassword()==null||user.getEmail()==null) можеме да го прикажеме со тебаела на вистинитост со 3 варијабли и да ги видиме можните резултати. 
-user==null | user.getPassword()==null | user.getEmail()==null | Multiple Condition |
-------------------------------------------------------------------------------------
-     T     |             T            |           T           |          T           
-     T     |             T            |           F           |          T           
-     T     |             F            |           T           |          T           
-     T     |             F            |           F           |          T           
-     F     |             T            |           T           |          T           
-     F     |             T            |           F           |          T           
-     F     |             F            |           T           |          T           
-     F     |             F            |           F           |          F   
+Multiple Condition критериумот за (user==null||user.getPassword()==null||user.getEmail()==null) можеме да го прикажеме со тебаела на вистинитост со 3 варијабли и да ги видиме можните резултати.
+
+user==null | user.getPassword()==null | user.getEmail()==null | Multiple Condition 
+
+     T       |             T          |           T          |        T           
+     T       |             T          |           F          |        T           
+     T       |             F          |           T          |        T           
+     T       |             F          |           F          |        T           
+     F       |             T          |           T          |        T           
+     F       |             T          |           F          |        T           
+     F       |             F          |           T          |        T           
+     F       |             F          |           F          |        F   
      
 Вака изгледа првичната табела според булова алгебра.
 Но тука можеме да видиме дека овие 8 изрази можеме да ги доведеме до 4, и да ја добиеме точната табела:
