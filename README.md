@@ -32,7 +32,7 @@ user==null | user.getPassword()==null | user.getEmail()==null | Multiple Conditi
 Вака изгледа првичната табела според булова алгебра.
 Но тука можеме да видиме дека овие 8 изрази можеме да ги доведеме до 4, и да ја добиеме точната табела:
 
-user==null | user.getPassword()==null | user.getEmail()==null | Multiple Condition |
+user==null | user.getPassword()==null | user.getEmail()==null | Multiple Condition 
 
      T       |             X           |           X         |          T           
      F       |             T           |           X         |          T                    
